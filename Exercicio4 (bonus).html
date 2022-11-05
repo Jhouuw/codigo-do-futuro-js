@@ -1,0 +1,17 @@
+<script>
+media = Number(prompt('Digite a nota media de corte da escola'))
+nome = prompt('Digite o nome do aluno avaliado')
+nota1 = Number(prompt('Primeira nota'))
+nota2 = Number(prompt('Segunda nota'))
+nota3 = Number(prompt('Terceira nota'))
+nota4 = Number(prompt('Quarta nota'))
+
+resultado = (nota1 + nota2 + nota3 + nota4)/4
+
+if (resultado >= media) {
+  alert(`Aluno ${nome} com média ${resultado} foi Aprovado pois a média da escola é ${media}`)
+}
+  else {
+  alert(`Aluno ${nome} com média ${resultado} foi Reprovado pois a média da escola é ${media}`)
+}
+</script>
